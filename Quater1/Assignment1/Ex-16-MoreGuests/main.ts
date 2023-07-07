@@ -1,5 +1,6 @@
 let friendNames: String[] = ["Abid Ali","Sohail Ahmed","Umar Khattab"];
-//Print array item with invitation
+ 
+
 printInvitation(friendNames);
 
 console.log(`Hurra! We found a bigger table for dinner.\n`);
@@ -9,9 +10,9 @@ friendNames.unshift("Owais");
 console.log(`After adding friend "Owais" in the beginning .\n`);
 printInvitation(friendNames);
 
-// Adding friend at index 2
+// Adding friend at index 2/middle
 friendNames.splice(2,0,"Yahya Husaini");
-console.log(`After adding friend "Yahya Husaini" at Index 2 .\n`);
+console.log(`After adding friend "Yahya Husaini" at Index 2 in the middle .\n`);
 printInvitation(friendNames);
 
 
@@ -25,4 +26,3 @@ function printInvitation(arr:String[]){
         console.log(`Dear ${name}, You are cordially invited to attend the dinner party we have planned for June 7 2023 \n`);
     })
 }
-
